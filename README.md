@@ -2,7 +2,7 @@
 
 > **cur·​ios** (ˈkjuːɹiːˌo͡ʊs) **_pn._** objects considered novel, strange, or interesting; curiosities
 
-CuriOS is an experimental OS drawing inspiration from [TempleOS](https://www.templeos.org/), [gittup](http://gittup.org/gittup/), [TCCBOOT](https://bellard.org/tcc/tccboot.html), [Nebulet](https://github.com/nebulet/nebulet), and [NixOS](https://nixos.org/).
+CuriOS is an experimental OS drawing inspiration from [TempleOS](https://www.templeos.org/), [gittup](http://gittup.org/gittup/), [TCCBOOT](https://bellard.org/tcc/tccboot.html), [Nebulet](https://github.com/nebulet/nebulet), [NixOS](https://nixos.org/), and [Singularity](https://www.microsoft.com/en-us/research/project/singularity).
 CuriOS has several ambitious (maybe impossible—we'll find out!) goals, here listed roughly in order of palatability for a ~~mere mortal~~ normal human:
 
 - Memory safety without an MMU is achieved by mandating all code is written in safe Rust (effectively, unsafe code is root). Barring serious bugs in rustc, it is impossible to even get a raw pointer, let alone poke & peek other applications' memory.
